@@ -76,13 +76,14 @@ body {
   margin: 0 auto;
 }
 .facts-list {
+  display: inline-block;
+  justify-content: center;
   list-style-type: none;
   display: flex;
   margin-top: 24px;
-  justify-items: center;
+  text-align: center;
 }
 .facts-list-item {
-  justify-items: center;
 }
 .facts-item-tittle {
   font-weight: 600;
