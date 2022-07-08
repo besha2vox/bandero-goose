@@ -1,97 +1,33 @@
 :root {
   --primery-bgc: #ffffff;
+  --secondary-bgc: linear-gradient(89.61deg, #fcfeff 0.32%, #a5edff 99.66%);
   --primary-text-color: #1b1d1f;
   --orange: #ff6b0a;
 }
 
+html,
 body {
-  font-family: "Montserrat", sans-serif;
-  background-color: var(--primery-bgc);
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-}
-.main-section {
-  background: linear-gradient(89.61deg, #fcfeff 0.32%, #a5edff 99.66%);
-  display: flex;
-  flex-direction: row;
-}
-.section {
-  margin-left: 95px;
-}
-.section-description {
-  background-color: var(--primery-bgc);
-  width: 578px;
-  margin-top: 56px;
-  margin-right: 44px;
-  padding-left: 56px;
-  padding-bottom: 60px;
-}
-.greetings {
-  font-weight: 600;
-  padding-top: 60px;
-}
-.orange-greetings {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1;
-  color: var(--orange);
-  margin-top: 16px;
+  height: 100%;
 }
 
-.tittle {
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 1.1;
-  margin-top: 48px;
-}
-.discription {
-  width: 400px;
-}
-.btn {
-  font-family: "Montserrat", sans-serif;
-  color: var(--primery-bgc);
-  background-color: var(--orange);
-  border-color: var(--primery-bgc);
-  border-radius: 8px;
-  width: 172px;
-  height: 48px;
-  margin-top: 48px;
-}
-.facts {
-  text-align: center;
-  margin-top: 52px;
-}
-.facts-tittle {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 2;
-  margin: 16px 0;
-}
-.facts-discription {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  width: 875px;
+.wrapper {
+  width: 1170px;
   margin: 0 auto;
 }
-.facts-list {
-  display: inline-block;
-  justify-content: center;
-  list-style-type: none;
+
+.main-page {
+  background: var(--secondary-bgc);
+  height: 100%;
   display: flex;
-  margin-top: 24px;
-  text-align: center;
+  flex-direction: column;
 }
-.facts-list-item {
+
+header {
+  margin-top: 34px;
+  margin-bottom: 58px;
+  display: flex;
 }
-.facts-item-tittle {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1;
-}
-.list.facts-discription {
-  width: 374px;
-  text-align: left;
-  margin: 0;
+
+.logo-text {
+  margin-left: 18px;
 }
