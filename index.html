@@ -6,68 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Бандерогусь</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <a href="https://goit.ua/"><img src="./img/logo.svg" alt="лого">Школа підготовки IT-спеціалістів</a>
-    </header>
-    <main>
-        <section class="section">
-
-            <section class="section-description">
-                <p class="greetings">Доброго вечора, ми з України</p>
-                <p class="orange-greetings">На старт. Увага. Полетіли!</p>
-                <h1 class="tittle">Бандерогусь</h1>
-                <p class="discription">Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами,
-                    бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!</p>
-                <button class="btn" type="button">Запустити гуся</button>
-            </section>
-        </section>
-        <img width: 637; src="./img/gus.svg" alt="гусак">
-
-        <section class="facts">
-            <img src="./img/gerb.svg" alt="герб" width="30">
-            <h2 class="facts-tittle">Цікаві факти про бандерогусей</h2>
-            <p class="facts-discription">Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть
-                атакувати
-                ворога системою надпотужного озброєння. Також нищать психологічно, активуючи високочастотне шипіння та
-                розмахування крилами</p>
-            <ul class="facts-list">
-                <li class="facts-list-item">
-                    <img src="./img/gus1.svg" alt="гусак">
-                    <h3 class="facts-item-title">Система навігації</h3>
-                    <p class="list facts-discription">Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть
-                        на
-                        етапі збірки</p>
-                </li>
-                <li class="facts-list-item">
-                    <img src="./img/gus2.svg" alt="гусак">
-                    <h3 class="facts-item-title">Очі-тепловізори</h3>
-                    <p class="list facts-discription">Допомагають виявити характер сигнатури об’єктів та значно
-                        підвищують
-                        точність удару</p>
-                </li>
-                <li class="facts-list-item">
-                    <img src="./img/gus3.svg" alt="гусак">
-                    <h3 class="facts-item-title">Байракрила</h3>
-                    <p class="list facts-discription">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані
-                        «ніхріна собі» кілометрів</p>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <footer>
+    <section class="main-page">
+        <div class="wrapper">
+            <header>
+                <img src="./img/logo.svg" alt="лого">
+                <p class="logo-text">Школа підготовки <br> IT-спеціалістів</p>
+            </header>
+            <div class="main-page-row">
+                <div class="banderogoose-container">
+                    <h3 class="banderogoose-greeting">Доброго вечора, ми з України</h3>
+                    <h2 class="banderogoose-start-text">На старт. Увага. Полетіли!</h2>
+                    <h1 class="banderogoose-tittle">Бандерогусь</h1>
+                    <p class="banderogoose-description">Спеціальний бойовий гусак із біолабораторій України. Пишаюся
+                        своїми
+                        подвигами, бороню Батьківщину та
+                        підтримую позитивний дух народу. Слава Україні!</p>
+                    <button type="button" class="banderogoose-btn">Запустити гуся</button>
+                </div>
+                <img src="./img/gus.svg" alt="гусак" class="banderogoose-img">
+            </div>
+        </div>
+    </section>
+    <section class="facts">
         <img src="./img/gerb.svg" alt="герб" width="30">
-        <p class="facts-tittle">Перемога завжди за нами!</p>
-        <p class="list facts-discription">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми
-            забезпечимо вашу посмішку у часи,
-            коли вона так необхідна</p>
-    </footer>
+        <h3 class="facts-tittle">Цікаві факти про бандерогусей</h3>
+        <p class="facts-discription">Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть
+            атакувати
+            ворога системою надпотужного озброєння. Також нищать психологічно, активуючи високочастотне шипіння та
+            розмахування крилами</p>
+        <ul class="facts-list">
+            <li class="facts-list-item">
+                <img src="./img/gus1.svg" alt="гусак">
+                <h4 class="facts-item-title">Система навігації</h4>
+                <p class="facts-list-discription">Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть
+                    на
+                    етапі збірки</p>
+            </li>
+            <li class="facts-list-item">
+                <img src="./img/gus2.svg" alt="гусак">
+                <h4 class="facts-item-title">Очі-тепловізори</h4>
+                <p class="facts-list-discription">Допомагають виявити характер сигнатури об’єктів та значно
+                    підвищують
+                    точність удару</p>
+            </li>
+            <li class="facts-list-item">
+                <img src="./img/gus3.svg" alt="гусак">
+                <h4 class="facts-item-title">Байракрила</h4>
+                <p class="facts-list-discription">Можуть нести 2-4 керовані ракети, що вражають ціль на відстані
+                    «ніхріна собі» кілометрів</p>
+            </li>
+        </ul>
+    </section>
+
+
+
 </body>
 
 </html>
