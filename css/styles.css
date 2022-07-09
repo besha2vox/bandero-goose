@@ -8,6 +8,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .wrapper {
@@ -30,4 +31,10 @@ header {
 
 .logo-text {
   margin-left: 18px;
+}
+.banderogoose-tittle {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  color: var(--primary-text-color);
 }
