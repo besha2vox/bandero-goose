@@ -160,12 +160,13 @@ footer {
   transition: all 0.3 ease-in-out;
 }
 .modal-form {
-  background-color: var(--primery-bgc);
-  padding: 32px 92px 60px 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 16px;
+}
+.modal-form-container {
+  background-color: var(--primery-bgc);
+  padding: 32px 92px 60px 92px;
   position: relative;
 }
 .modal-form-tittle {
