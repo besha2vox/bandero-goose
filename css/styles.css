@@ -37,12 +37,18 @@ header {
   left: 0;
 }
 
-.logo-text {
+.logo-link {
+  display: flex;
+  text-decoration: none;
+  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
+}
+.logo-link > p {
   margin-left: 18px;
 }
+
 .banderogoose-container {
   background-color: var(--primery-bgc);
   padding: 60px 56px;
@@ -141,6 +147,57 @@ footer {
   width: 1170px;
   padding: 72px 0;
 }
+.btn a {
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  border: 2px solid;
+  border-color: rgb(50, 50, 50);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0 0 0;
+  padding: 8px;
+}
+
+.btn a::before {
+  content: "";
+  height: 2px;
+  width: 10px;
+  position: absolute;
+  left: 5px;
+  top: -2px;
+  display: block;
+  background: var(--secondary-bgc);
+  transition: 500ms ease-in-out;
+}
+.btn a::after {
+  content: "";
+  height: 2px;
+  width: 10px;
+  position: absolute;
+  right: 5px;
+  bottom: -2px;
+  display: block;
+  background: var(--secondary-bgc);
+  transition: 500ms ease-in-out;
+}
+.btn a:focus::before,
+.btn a:hover::before {
+  left: calc(100% - 20px);
+}
+.btn a:focus::after,
+.btn a:hover::after {
+  right: calc(100% - 20px);
+}
+
+.donat {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--primary-text-color);
+}
 .footer-discriptions {
   text-align: center;
   width: 875px;
@@ -213,4 +270,15 @@ footer {
 .modal-active {
   opacity: 1;
   pointer-events: all;
+}
+
+.gus-anim {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-bottom: auto;
+  margin-top: auto;
+  width: 100%;
+  z-index: 2;
+  pointer-events: none;
 }
